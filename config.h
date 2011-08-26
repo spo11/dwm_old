@@ -3,7 +3,7 @@
 /* appearance */
 //static const char font[]            = "-*-terminusmod-medium-r-*-*-12-*-*-*-*-*-*-*";
 //static const char font[]            = "-*-profont-*-*-*-*-12-*-*-*-*-*-*-*";
-static const char font[]            = "-*-terminusmod-*-*-*-*-14-*-*-*-*-*-*-*";
+static const char font[]            = "-*-terminusmod-medium-*-*-*-12-*-*-*-*-*-*-*";
 static const char normbordercolor[] = "#D4D4D4";
 static const char normbgcolor[]     = "#EBEBEB";
 static const char normfgcolor[]     = "#A8B0B2";
@@ -47,12 +47,17 @@ static const Bool resizehints = True; /* True means respect size hints in tiled 
 #include "bstackhoriz.c"
 static const Layout layouts[] = {
 	/* symbol     arrange function */
-	{ "[]=",      tile },    /* first entry is default */
-	{ "><>",      NULL },    /* no layout function means floating behavior */
-	{ "[M]",      monocle },
-	{ "TTT",      bstack },
-	{ "===",      bstackhoriz },
-};
+//	{ "[]=",      tile },    /* first entry is default */
+//	{ "><>",      NULL },    /* no layout function means floating behavior */
+//	{ "[M]",      monocle },
+//	{ "TTT",      bstack },
+//	{ "===",      bstackhoriz },
+	{ "ÿ",      tile },
+	{ "ý",      NULL },
+	{ "ú",      monocle },
+	{ "þ",      bstack },  /* first entry is default */
+	{ "û",      bstackhoriz },
+}; 
 
 /* key definitions */
 #define MODKEY Mod1Mask
