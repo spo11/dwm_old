@@ -18,8 +18,8 @@ Navigate to this folder in which you have cloned this repository on your compute
 makepkg -efi --skipinteg
 ```
 
-# installing dwm patches
-[patches](http://dwm.suckless.org/patches/) for dwm have to be implemented into dwm's source code. 
+# Installing Patches
+[Patches](http://dwm.suckless.org/patches/) for dwm have to be implemented into dwm's source code. 
 
 Generally you must download a patch that corresponds to the version of dwm you are using. For example, if I were using dwm 5.9, I would want dwm-5.9-uselessgap.diff. Save the patch to the src/dwm-5.9 folder. 
 
