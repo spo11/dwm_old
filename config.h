@@ -2,7 +2,8 @@
 
 /* appearance */
 //static const char font[]            = "-*-terminusmod-medium-r-*-*-12-*-*-*-*-*-*-*";
-static const char font[]            = "-*-profont-*-*-*-*-12-*-*-*-*-*-*-*";
+//static const char font[]            = "-*-profont-*-*-*-*-12-*-*-*-*-*-*-*";
+static const char font[]            = "-*-terminusmod-*-*-*-*-14-*-*-*-*-*-*-*";
 static const char normbordercolor[] = "#D4D4D4";
 static const char normbgcolor[]     = "#EBEBEB";
 static const char normfgcolor[]     = "#A8B0B2";
