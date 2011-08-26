@@ -1,0 +1,1 @@
+/home/coder/abs/community/dwm/config.h
