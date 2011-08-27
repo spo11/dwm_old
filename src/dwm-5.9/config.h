@@ -18,7 +18,7 @@ static const Bool topbar            = True;     /* False means bottom bar */
 
 /* tagging */
 //static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
-static const char      *tags[] = { "main", "www", "code", "edit", "music", "video", "office" };
+static const char      *tags[] = { "½ main", "Ñ www", "code", "edit", "music", "video", "office" };
 
 #define ALL 0
 #define MAIN 1 << 0
@@ -33,7 +33,7 @@ static const Rule rules[] = {
 	//{ "Gimp",     NULL,       NULL,       0,            True,        -1 },
 	//{ "Firefox",  NULL,       NULL,       1 << 8,       False,       -1 },
 	{ "luakit",     NULL,       NULL,       WWW,          False,       -1 },
-	{ "Gvim",       NULL,       NULL,       CODE,         False,       -1 },
+	{ "GVIEW",       NULL,       NULL,       CODE,         False,       -1 },
 	{ "Minitube",   NULL,       NULL,       VIDEO,        False,       -1 },
 	{ "MPlayer",   NULL,       NULL,       VIDEO,        False,       -1 },
 	{ "Emacs",      NULL,       NULL,       OFFICE,       False,       -1 },
